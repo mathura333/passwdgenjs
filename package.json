@@ -15,6 +15,11 @@
     "password-generation",
     "nodejs"
   ],
+  "scripts": {
+    "build": "tsc",
+    "prettier:run": "prettier --write .",
+    "prettier:check": "prettier --check ."
+  },
   "devDependencies": {
     "@types/node": "^16.4.10",
     "prettier": "^2.3.2",
