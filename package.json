@@ -1,0 +1,27 @@
+{
+  "name": "passwdgenjs",
+  "version": "1.0.0",
+  "description": "Random Password generation library",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "repository": "git@github.com:mathura333/passwdgenjs.git",
+  "author": "mathura333 <mathuradas333@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "cli",
+    "password-generation",
+    "nodejs"
+  ],
+  "devDependencies": {
+    "@types/node": "^16.4.10",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "randexp": "^0.5.3"
+  }
+}
